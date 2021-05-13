@@ -63,7 +63,7 @@ function choiceSelect() {
 // timer starter+decrementer
 function startTimer() {
     var timeInterval = setInterval(function() {
-        timer.textContent = timeLeft + " seconds remaining";
+        timer.textContent = timeLeft + " seconds left";
         timeLeft--;
 
         if (currentQuestionIndex === Questions.length) {
