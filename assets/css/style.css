@@ -1,0 +1,30 @@
+* {
+    background-color: rgb(10, 10, 233);
+    font-family: 'Girassol', cursive;
+    color: #fff;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#start li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#startButton {
+    justify-content: center;
+    align-items: center;
+    background-color: #800000;
+}
+
+#highScoreButton {
+    background-color: #800000;
+}
+
+#content ul {
+    justify-content: center;
+}

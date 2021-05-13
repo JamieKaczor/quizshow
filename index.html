@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Quiz Show</title>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script defer src="./assets/css/js/questions.js"></script>
+<script defer src="./assets/css/js/script.js"></script>
+</head>
+<body>
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="card">
+            <h1 id="header">Historical Figures</h1>
+            <section id="main">
+                <section id="content">
+                    <ul id="start">Click "Start Game" to begin.
+                        <li>You've got one minute to complete the quiz.</li>
+                        <li>All answers must be given in the form of a question.</li> 
+                        <li>For every incorrect answer, you'll lose 10 seconds from your time remaining.</li>
+                    </ul>
+                    <br><br>
+                    <input type="button" id="startButton" value="Start Game">
+                </section>
+                <input type="text" placeholder="Enter Name and High Score" name="hs-text" id="hs-text">
+                <section id="timer"></section>
+                <section id="score"></section>
+                <section id="result"></section>
+                <ul><input type="button" id="highScoreButton" value="View High Scores"></ul>
+            </section>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
