@@ -21,5 +21,5 @@ var Questions = [
     choices: ["A: Who is Magnus Carlsen?", "B: Who is Bobby Fischer?", "C: Who is Garry Kasparov?", "D: Who is Anatoly Karpov?"],
     correctAnswer: "B: Who is Bobby Fischer?",
     }]
-// quick console.log to make sure questions are loading properly
+// console.log to make sure questions are loading properly
     console.log(Questions[2]);
